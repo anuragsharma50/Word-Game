@@ -1,0 +1,23 @@
+.inputbox {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 24px;
+}
+
+.option {
+    margin: auto;
+    width: 15vw;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    font-size: 35px;
+    border: 2px solid rgb(36, 130, 252);
+    border-radius: 15px; 
+    background: rgb(36, 130, 252);
+    padding: 10px;
+    box-shadow: 2px 4px 2px rgb(37, 36, 36);
+    color: rgb(255, 136, 0);
+    font-style: italic;
+    margin-right: 20vw;
+}
+

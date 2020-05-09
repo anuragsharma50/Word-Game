@@ -1,0 +1,67 @@
+.header {
+    position: relative;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.user {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    border: 2px solid black;
+    background: rgb(36, 130, 252);
+    border-radius: 50%;
+    margin: 12px;
+}
+
+.time {
+    width: 40vw;
+    height: 3vh;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 50px;
+    margin: 12px;
+}
+
+.remaining {
+    width: 40vw;
+    height: 3vh;
+    background: rgb(28, 228, 28);
+    overflow: hidden;
+    border-radius: 50px;
+    animation-name: timer;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes timer {
+    0% {width: 40vw;}
+    1% {width: 39vw;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;}
+    25% {background: rgb(43, 255, 0)}
+    50% {background: yellow}
+    75% {background: red}
+    100% {width: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        background: red}
+  }
+
+.score {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    border: 2px solid black;
+    margin: 1.2vw;
+    text-align: center;
+    box-shadow: 3px 5px 2px rgb(37, 36, 36);
+}
+
+.score_val {
+    text-align: center;
+    font-size: 40px;
+}
