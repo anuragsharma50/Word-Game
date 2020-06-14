@@ -1,0 +1,42 @@
+.Restart {
+    border: 2px solid black;
+    width: 450px;
+    height: 450px;
+    background: rgb(228, 144, 144);
+    z-index: 2;
+    top: 22%;
+    left: 33%;
+    position: absolute;
+}
+
+.out-heading {
+    position: relative;
+    margin-left: 11%; 
+    font-size: 70px; 
+}
+
+.score-heading {
+    position: relative;
+    margin-left: 45%;
+    font-size: 15px;
+    margin-top: 10% 
+}
+
+#out {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 55px;
+    margin-top: -2%; 
+}
+
+#try-again {
+    position: relative;
+    margin-left: 22%;
+    margin-top: 5%;
+    width: 250px;
+    height: 70px;
+    border-radius: 15px;
+    font-size: 35px;  
+    font-family: 'Sriracha', cursive;
+}

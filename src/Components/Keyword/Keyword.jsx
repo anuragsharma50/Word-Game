@@ -1,11 +1,11 @@
 import React from 'react';
 
-import '../styles/Keyword.styles.css'
+import './Keyword.styles.css'
 
-const Keyword = () => {
+const Keyword = ({val}) => {
     return (
         <div className='keyword'>
-            T
+            {val}
         </div>
     )
 }

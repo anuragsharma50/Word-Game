@@ -14,10 +14,12 @@
     border: 2px solid rgb(36, 130, 252);
     border-radius: 15px; 
     background: rgb(36, 130, 252);
-    padding: 10px;
+    padding: 19px;
+    padding-top:0px;
     box-shadow: 2px 4px 2px rgb(37, 36, 36);
     color: rgb(255, 136, 0);
     font-style: italic;
     margin-right: 20vw;
+    font-family: 'Cairo', sans-serif;
 }
 
