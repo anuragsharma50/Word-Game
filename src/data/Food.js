@@ -1334,7 +1334,16 @@ const Food = [
     "Watermelon rind preserves",
     "XO sauce",
     "Za'atar",
-    "Zacuscă"
+    "Zacuscă",
+    "Dhokla",
+    "Dal amritsari",
+    "Rajma",
+    "Oats",
+    "Dal Tadka",
+    "Chole",
+    "Sambar",
+    "Idli",
+    "Masala dosa"
 ]
 
 export default Food;
