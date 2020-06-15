@@ -53,12 +53,12 @@ class Container extends Component {
     restart = () => {
         document.getElementById('left').className = 'remaining';
         clearTimeout(this.samay)
-        setTimeout(this.timer,15000);    
+        setTimeout(this.timer,1500);    
     }
 
     newKeyword = () => {
         this.setState({
-            keyword: this.state.Keywords[Math.floor(Math.random()*25+1)]
+            keyword: this.state.Keywords[Math.floor(Math.random()*26+1)]
         })    
     }
     

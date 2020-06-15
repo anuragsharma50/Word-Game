@@ -4,6 +4,9 @@
 
 body {
   margin: 2vh;
-  background: rgb(228, 119, 119);
+  background: url(./images/background.jpg);
   height: auto;
+  background-size: 107%
 }
+
+

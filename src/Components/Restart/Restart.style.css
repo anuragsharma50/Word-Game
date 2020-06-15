@@ -2,11 +2,15 @@
     border: 2px solid black;
     width: 450px;
     height: 450px;
-    background: rgb(228, 144, 144);
+    background: url('../../images/fox-background.jpg');
+    background-size: 100%;
     z-index: 2;
     top: 22%;
     left: 33%;
     position: absolute;
+    opacity: 1;
+    box-shadow: 5px 7px 2px rgb(37, 36, 36);
+    
 }
 
 .out-heading {

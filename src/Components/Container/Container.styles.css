@@ -8,6 +8,7 @@
     box-shadow: 5px 7px 2px rgb(37, 36, 36);
     z-index: -1;
     left: 10%;
+    opacity: 0.9;
 }
 
 .containeredit {
