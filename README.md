@@ -18,7 +18,7 @@ note:- You can write any animal/bird/sea-animals name inside animal input.
 - Run npm install in root folder to install dependency.
 - npm start to run development server.
 
-#React Features
+# React Features
 
 it includes react features such as
 - Portals
