@@ -9,7 +9,7 @@ input {
     font-size: 30px; 
 }
 
-@media (max-width:320px) {
+@media (max-width:420px) {
     input {
         width: 45vw;
         margin-left: -24vw;

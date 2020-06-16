@@ -30,7 +30,7 @@
     font-family: 'Sriracha', cursive;
 }
 
-@media (max-width:320px) {
+@media (max-width:420px) {
     .container{
       margin: 0;
       border: none;

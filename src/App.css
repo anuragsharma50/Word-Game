@@ -9,7 +9,7 @@ body {
   background-size: 107%;
 }
 
-@media (max-width:320px) {
+@media (max-width:420px) {
   body{
     background: url(./images/breakfast.jpg);
     background-size: 100%;

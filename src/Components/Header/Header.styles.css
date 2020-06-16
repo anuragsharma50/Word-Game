@@ -72,7 +72,7 @@
     font-size: 40px;
 }
 
-@media (max-width:320px) {
+@media (max-width:420px) {
     .user{
         width: 60px;
         height: 60px;

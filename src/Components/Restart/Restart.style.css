@@ -44,7 +44,7 @@
     font-family: 'Sriracha', cursive;
 }
 
-@media (max-width:320px) {
+@media (max-width:420px) {
     .Restart {
         width: 260px;
         height: 260px;
