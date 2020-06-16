@@ -9,8 +9,7 @@
     left: 33%;
     position: absolute;
     opacity: 1;
-    box-shadow: 5px 7px 2px rgb(37, 36, 36);
-    
+    box-shadow: 5px 7px 2px rgb(37, 36, 36);   
 }
 
 .out-heading {
@@ -44,3 +43,35 @@
     font-size: 35px;  
     font-family: 'Sriracha', cursive;
 }
+
+@media (max-width:320px) {
+    .Restart {
+        width: 260px;
+        height: 260px;
+        top: 22%;
+        left: 7%;  
+    }
+    
+    .out-heading {
+        margin-left: 10%; 
+        font-size: 40px; 
+    }
+    
+    .score-heading {
+        margin-left: 45%;
+        font-size: 14px;
+        margin-top: -8% 
+    }
+    
+    #out {
+        font-size: 50px;
+        margin-top: -2%; 
+    }
+    
+    #try-again {
+        margin-left: 9%;
+        margin-top: -8%;
+        width: 210px;
+        height: 70px;
+    }
+  }

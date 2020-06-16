@@ -6,7 +6,16 @@ body {
   margin: 2vh;
   background: url(./images/background.jpg);
   height: auto;
-  background-size: 107%
+  background-size: 107%;
 }
 
-
+@media (max-width:320px) {
+  body{
+    background: url(./images/breakfast.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0px;
+    background-size: 112%;
+    height: 10vh;
+  }
+}

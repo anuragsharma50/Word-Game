@@ -71,3 +71,49 @@
     text-align: center;
     font-size: 40px;
 }
+
+@media (max-width:320px) {
+    .user{
+        width: 60px;
+        height: 60px;
+        background-size: 60px; 
+        border-radius: 50%;
+        margin: 8px;
+    }
+
+    .score {
+        width: 60px;
+        height: 60px;
+        margin: 1vw;
+    }
+
+    .score_val {
+        font-size: 30px;
+    }
+
+    .time {
+        width: 45vw;
+        height: 2vh;
+        margin: 5px;
+    }
+    
+    .remaining {
+        width: 45vw;
+        height: 2vh;  
+    }
+    
+    .animate {
+        width: 45vw;
+        height: 2vh;
+    }
+
+    @keyframes timer {
+        0% {width: 45vw;}
+        1% {width: 44vw;}
+        25% {background: rgb(43, 255, 0)}
+        50% {background: yellow}
+        75% {background: red}
+        100% {width: 0px;
+            background: red}
+      }
+  }

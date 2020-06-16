@@ -8,3 +8,11 @@ input {
     font-family: 'Caveat', cursive;
     font-size: 30px; 
 }
+
+@media (max-width:320px) {
+    input {
+        width: 45vw;
+        margin-left: -24vw;
+        font-size: 25px; 
+    }
+  }

@@ -23,3 +23,18 @@
     font-family: 'Cairo', sans-serif;
 }
 
+@media (max-width:320px) {
+    .inputbox {
+        margin: 30px;
+        margin-left: 17px;
+    }
+
+    .option {
+        width: 25vw;
+        font-size: 28px;
+        padding: 24px;
+        padding-top:7px;
+        text-align: center;
+        height: 38px;
+    }
+  }

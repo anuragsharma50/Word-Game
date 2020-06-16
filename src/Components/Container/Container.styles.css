@@ -29,3 +29,16 @@
     font-size: 4.5vw;
     font-family: 'Sriracha', cursive;
 }
+
+@media (max-width:320px) {
+    .container{
+      margin: 0;
+      border: none;
+      width: 100vw;
+      height: 95vh;
+      box-shadow: none;
+      left: 0%;
+      z-index: -2;
+      opacity: 0.8;
+    }
+}
