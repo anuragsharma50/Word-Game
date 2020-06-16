@@ -13,7 +13,7 @@ class Container extends Component {
         super(props)
     
         this.state = {
-            Keywords: ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'],
+            Keywords: ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','Y','Z'],
             keyword:'',
             Score:0,
             open: false,
@@ -58,7 +58,7 @@ class Container extends Component {
 
     newKeyword = () => {
         this.setState({
-            keyword: this.state.Keywords[Math.floor(Math.random()*26+1)]
+            keyword: this.state.Keywords[Math.floor(Math.random()*24+1)]
         })    
     }
     

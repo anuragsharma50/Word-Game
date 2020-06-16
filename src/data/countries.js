@@ -311,7 +311,7 @@ const Countries = [
 "NewCaledonia",
 
 "NewZealand",
-
+"New york",
 "Nicaragua",
 
 "Niger",
@@ -463,7 +463,9 @@ const Countries = [
 "Uruguay",
 
 "Uzbekistan",
-
+"Usa",
+"Uk",
+"X",
 "Vanuatu",
 
 "Venezuela",
@@ -981,7 +983,7 @@ const Countries = [
 
 
 "EnglishBazar",
-
+"England",
 
 
 
@@ -2856,8 +2858,8 @@ const Countries = [
 
 
 "Lonavla",
-
-
+"London",
+"Queens",
 
 
 "Ponnur",
