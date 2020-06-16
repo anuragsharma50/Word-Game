@@ -1339,7 +1339,7 @@ const Food = [
     "Dal amritsari",
     "Rajma",
     "Oats",
-    "Dal Tadka",
+    "Dal tadka",
     "Chole",
     "Sambar",
     "Idli",
