@@ -6,6 +6,10 @@ You got 15 seconds to write atleast one input, if you successfully write animal 
 
 note:- You can write any animal/bird/sea-animals name inside animal input.
 
+#Link
+
+https://anurag-sharma.netlify.app/
+
 # Preview
 
 ![Screenshot](https://github.com/anuragsharma50/Word-Game/blob/master/static/Screenshot_1.png)
