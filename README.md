@@ -2,7 +2,7 @@
 
 Re-creation of a childhood game using React. 
 
-You got 15 seconds to write atleast one input, if you successfully write animal or place or food name the time will again increase to 15 second.Else the game will over and your score will display on the screen.You can restart the game by clicking on Try again button.
+You got 10 seconds to write atleast one input, if you successfully write animal or place or food name the time will again increase to 10 second.Else the game will over and your score will display on the screen.You can restart the game by clicking on Try again button.
 
 note:- You can write any animal/bird/sea-animals name inside animal input.
 
